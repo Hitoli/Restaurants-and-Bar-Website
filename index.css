@@ -1,0 +1,65 @@
+html{
+    font-size: 10px;
+    overflow-x: hidden;
+
+}
+:root{
+    --fad:#a600e7;
+    --blackc:#090B0D;
+    --lightred:#8C182D44;
+    --lightblack:#090B0D44;
+    --yellow:#F2CB07;
+    --lightyellow:#F2CB0744;
+    --brownish:#594302;
+
+}
+body{
+    background-image: radial-gradient(73% 147%, #EADFDF 59%, #ECE2DF 100%), radial-gradient(91% 146%, rgba(255,255,255,0.50) 47%, rgba(0,0,0,0.50) 100%);
+    background-blend-mode: screen;
+    margin: 0%;
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    overflow-y: hidden;
+    
+
+}
+
+@keyframes fadeInAnimation {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+    
+}
+section{
+    padding: 100px 0;
+}
+.container{
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+h1,h2,h3,h4{
+    font-family: 'Merriweather', serif;
+
+}
+p{
+    
+font-family: 'Nunito', sans-serif;
+font-weight: 400;
+line-height: 1.4em;
+}
+.logo{
+    width: 7%;
+    height: 7%;
+}
+@media only screen and (max-width:768px) {
+    section{
+        padding: 50px;
+    }
+    
+}
